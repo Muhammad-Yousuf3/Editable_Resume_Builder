@@ -1,0 +1,19 @@
+{
+  "name": "hackathon-0-milestone-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "html2pdf.js": "^0.10.2",
+    "jspdf": "^2.5.2"
+  }
+}

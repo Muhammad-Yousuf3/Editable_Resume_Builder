@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+    background-color: #111;
+
+}
+
+main{
+    background:linear-gradient(to right ,lightblue,darkblue) ;
+    -webkit-background-clip:content-box;
+    color: transparent;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+h2{
+    background:linear-gradient(to right ,royalblue,darkblue,royalblue) ;
+    -webkit-background-clip:text;
+    color: transparent;
+    padding-top: 2vw;
+    font: bolder xx-large sans-serif;
+}
+
+label{
+    color: white;
+    font: bold large sans-serif;
+    padding-top: 1vw;
+}
+
+input{
+    height: 5vh;
+    width: 70%;
+    border: 2px solid rgba(63, 194, 238, 0.8); 
+    padding: 8px; 
+   
+    border-radius: 4px; 
+    outline: none;
+    font-size: larger;
+}
+
+input:focus {
+    border-color: #7dcafa; 
+    box-shadow: 0px 0px 20px rgba(249, 253, 255, 0.7); 
+}
+
+button{
+    background:linear-gradient(to right ,royalblue, lightblue) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    font: bold large sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 3vw;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    color: darkblue;
+}
+
+p{
+    color: white;
+}
+
+h3{
+    background:linear-gradient(to right ,royalblue,darkblue,royalblue) ;
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+ul{
+    color: white;
+}
+
+div{
+    margin-left: 10%;
+    border: lightblue solid 3px;
+    width: 50%;
+    padding-left: 10%;
+    border-radius: 20px;
+    font:  sans-serif;
+    outline: none;
+    box-shadow: 0px 0px 15px 5px rgba(173, 216, 230, 0.8);
+}
+
+h1{
+    text-align: center;
+    background:linear-gradient(to right , darkblue ,lightblue,darkblue) ;
+    -webkit-background-clip:text;
+    color: transparent;
+    margin-top: 3vw;
+}
+
+@media (max-width:750px) {
+    button{
+        width: 70%;
+    }
+
+    div{
+        width: 70%;
+        margin-right: 10%;
+        padding-left: 2vw;
+    }
+}

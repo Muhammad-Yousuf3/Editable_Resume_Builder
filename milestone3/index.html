@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Editable Resume Builder</h1>
+    <main id="mainSection">
+
+        <form id="resumeInput">
+
+            <h2>Personal Information</h2>
+
+            <label for="name">Name :</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone :</label>
+            <input type="number" id="phone" required>
+            
+
+            <h2>Education</h2>
+
+            <label for="degree" >Degree :</label>
+            <input type="text" id="degree" required>
+
+            <label for="institution">Institute :</label>
+            <input type="text" id="institution" required>
+
+            <label for="year">Year :</label>
+            <input type="number" id="year" required>
+
+            <h2>Work Experince</h2>
+
+            <label for="job">Job Title :</label>
+            <input type="text" id="job" required>
+
+            <label for="company">Company :</label>
+            <input type="text" id="company" required>
+
+            <label for="yearsworked">Years Worked :</label>
+            <input type="number" id="yearsworked" required> 
+
+            <h2>Skills</h2>
+
+            <label for="skills">Skills (comma seperated) :</label>
+            <input type="text" id="skills" required>
+
+            <button type="button" onclick="GenerateResume()">Generate Resume</button>
+           
+        </form>
+
+        <div id="resumeOutput" contenteditable="true">
+           
+        </div>
+
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
